@@ -15,7 +15,6 @@ int main(int argc, char* argv[])
 	wchar_t *command2 = NULL;
 	command2 = new wchar_t[256];
 
-	Sleep(10000);
 	MiniDumpFunctions d;
 	if (argc < 3)
 	{
